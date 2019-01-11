@@ -1,0 +1,11 @@
+*.xls
+*.xlsx
+*.xlsx#
+*.csv
+*.log
+ssh_keys/*
+reports/*
+!reports/.gitkeep
+config/*.py
+!config/*.sample.py
+!lib

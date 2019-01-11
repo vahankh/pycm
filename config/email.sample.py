@@ -1,0 +1,5 @@
+EMAIL_SERVER        = ''
+EMAIL_SERVER_SSL    = ''
+EMAIL_USER          = ''
+EMAIL_PASS          = ''
+EMAIL_TO            = ''
