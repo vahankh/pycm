@@ -1,10 +1,10 @@
-# MMS Engine
+# Python Controller Mode CLI Framework
 
-MMS Engine is designed to run various scripts and tools for MMS and Seeds. 
+PYCM is designed to run various command line scripts and tools for MMS and Seeds. It simplifies argument parsing and code management
 
 ### Running in a container
 
-MMS Engine is coded with Python 3.6 and uses Couchbase Python SDK and Python MySQL connector. It's recommended to use the the engine using the [python3.6.mysql.couchbase](https://hub.docker.com/r/vahankh/python3.6.mysql.couchbase/) container.
+PYCM is coded with Python 3.6 and uses Couchbase Python SDK and Python MySQL connector. It's recommended to use the the engine using the [python3.6.mysql.couchbase](https://hub.docker.com/r/vahankh/python3.6.mysql.couchbase/) container.
 To do it simply run:
 ```bash
 docker run --name mms --restart unless-stopped --network host -dit -w /opt/mms_engine -v /root/mms_tools/mms_engine:/opt/mms_engine -v /data/vulcan/incoming:/data/vulcan/incoming -v /var/log/adxg:/var/log/adxg vahankh/python3.6.mysql.couchbase
