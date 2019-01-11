@@ -1,6 +1,6 @@
 # Python Controller Mode CLI Framework
 
-PYCM is designed to run various command line scripts and tools for MMS and Seeds. It simplifies argument parsing and code management
+PYCM is designed to run various command line scripts and tools. It simplifies argument parsing and code management
 
 ### Running in a container
 
